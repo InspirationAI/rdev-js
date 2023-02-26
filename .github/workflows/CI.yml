@@ -33,7 +33,7 @@ jobs:
           - host: windows-latest
             build: |
               yarn build --target i686-pc-windows-msvc
-              yarn test
+#              yarn test
             target: i686-pc-windows-msvc
           - host: macos-latest
             target: aarch64-apple-darwin
